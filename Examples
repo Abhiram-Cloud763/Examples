@@ -1,0 +1,43 @@
+a="Abhi ram"
+b=a.upper()
+c=a.lower()
+d=a.capitalize()
+e=a.swapcase()
+print(b)
+print(c)
+print(d)
+print(e)
+
+print("#STRING CHECKING METHODS")
+
+#string checking methods
+str="1234567dfhzxzrjkxnckjbv/fgcxr890"
+s1="Kumar"
+s2="kumar"
+s3="my name is"
+s4="The animal"
+print(str.isalpha())
+print(str.isdigit())
+print(str.isalnum())
+print(s1.islower())
+print(s2.isupper())
+print(s3.isspace())
+print(s4.title())
+print(s4.istitle())
+
+o/p:
+ABHI RAM
+abhi ram
+Abhi ram
+aBHI RAM
+#STRING CHECKING METHODS
+False
+False
+False
+False
+False
+False
+The Animal
+False
+
+=== Code Execution Successful ===
